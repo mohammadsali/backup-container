@@ -1,6 +1,36 @@
 {
-  "projectFriendlyName": "${projectFriendlyName}",
-  "projectName": "${projectName}",
-  "statusCode": "${statusCode}",
-  "message": "${message}"
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "projectFriendlyName: ${projectFriendlyName}",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "projectName: ${projectName}",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "statusCode: ${statusCode}",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "message: ${message}",
+				"emoji": true
+			}
+		}
+	]
 }
