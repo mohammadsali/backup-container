@@ -4,15 +4,7 @@
 			"type": "section",
 			"text": {
 				"type": "plain_text",
-				"text": "projectFriendlyName: ${projectFriendlyName}",
-				"emoji": true
-			}
-		},
-		{
-			"type": "section",
-			"text": {
-				"type": "plain_text",
-				"text": "projectName: ${projectName}",
+				"text": "Name: ${database}",
 				"emoji": true
 			}
 		},
